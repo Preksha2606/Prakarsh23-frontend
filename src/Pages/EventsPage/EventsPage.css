@@ -1,0 +1,98 @@
+.EventPage{
+    background: #F9EFD7;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    height: 120vh;
+}
+.EventContainer{
+    position: absolute;
+    top: 18vh;
+    height:80vh;
+    width: 70%;
+}
+.Eventbox{
+    margin-bottom: 5.5vh;
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 18vh;
+    position: relative;
+       
+}
+.Eventicon{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 17.1vh;
+    height:  17.1vh;
+    position: relative;
+    border-radius: 15px;
+    background-color: white;
+
+}
+.Eventdes{
+    /* border: 2px solid black; */
+    background-color: white;
+    width:  100vh;
+    height: 17.1vh;
+    position: relative;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.EventDiscripDiv{
+    position: relative;
+    height: 15vh;
+    background-color: #F9EFD7;
+    border-radius: 10px;
+    width: 96%;
+    box-shadow: -1px -2px 5px grey;
+}
+
+.EventDiscripDiv p{
+    position: relative;
+    padding: 1vh;
+    font-size: 21px;
+}
+.EventiconDiv{
+    position: relative;
+    height: 15vh;
+    background-color: #F9EFD7;
+    border-radius: 10px;
+    width: 15vh;
+    box-shadow: -1px -2px 5px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 2px;
+}
+
+.EventiconDiv img{
+    height:8vh ;
+}
+#btn2,#btn1{
+    position: absolute;
+    bottom: 2vh;
+    background-color: #AC70FF;
+    height:3vh;
+    width: 9.5vh;
+    color: white;
+    border: 1px solid black;
+    border-right: 2px solid black;
+    border-bottom:2px solid black;
+}
+
+#btn2{
+    right:2vh;
+}
+
+#btn1{
+    right:14vh;
+}
